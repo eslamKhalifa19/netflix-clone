@@ -52,7 +52,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
         }
         setInitialLoading(false);
       }),
-    [auth]
+    []
   );
 
   const signUp = async (email: string, password: string) => {
