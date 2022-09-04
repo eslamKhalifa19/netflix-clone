@@ -4,7 +4,7 @@ import { getApps, getApp, initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: process.env.API_KEY,
+  apiKey: process.env.Next_API_KEY,
   authDomain: "netflix-37210.firebaseapp.com",
   projectId: "netflix-37210",
   storageBucket: "netflix-37210.appspot.com",
